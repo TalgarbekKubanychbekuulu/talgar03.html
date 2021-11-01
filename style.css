@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+article {
+  max-width: 500px;
+  border: solid 10px gray;  
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  transition:all .5s eas-out
+
+}
+article img{
+  min-width: 50%;
+  object-fit: cover;
+  flex-basis: 40%;
+}
+.div{
+  padding: 5px 10px 5px;
+}
+a{
+  font-family: 'Zen Antique', serif;
+}
+p{
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Qahiri', sans-serif;
+font-family: 'Zen Antique', serif;
+}
+article:nth-child(even){
+   flex-direction: row-reverse;
+}
+article:hover{
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  box-shadow:0 0 30px red;
+}
+div {
+  background: rgb(206, 195, 195);
+  background-image:url(./carsa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 600px;
+}
+  
