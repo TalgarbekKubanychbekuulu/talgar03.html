@@ -1,0 +1,85 @@
+
+    table{
+      width: 100%;
+    }
+    .navbar {
+      display: inline;
+      justify-content: space-between;
+      align-items: stretch;
+    
+    } 
+    .navbar ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+     }
+     .navbar ul li {
+      display: inline;
+     }
+     .navbar ul li a {
+       justify-content: space-between;
+       text-decoration: none;
+     }
+     table .first {
+       background-color: rgb(83, 83, 255);
+     }
+     .dropdown {
+      display: flex;
+    
+      position: fixed;
+      bottom: 0;
+      left: 10px;
+      border-bottom: 50px 50px;
+     }
+    .dropdown-right{
+      display: flex;
+    
+      position: fixed;
+       bottom: 0;
+       right: 950px;
+    }
+    
+    button {
+      border-radius: 50px 50px;
+      background-color: red;
+    }
+    .ex-1 {
+      border-radius: 100%;
+      padding: 9px;
+     border: none;
+      background-color: rgb(201, 30, 0);
+      color: white;
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+    .ex-1 i:active {
+    color: black;
+    }
+    .ex-1 i:hover {
+      color: black;
+      }
+    .ex-2 {
+      border-radius: 100%;
+      padding: 9px;
+      border: 3px solid black;
+      background-color: rgb(201, 30, 0);
+      color: white;
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+     display: flex;
+    }
+    .ex-2 span {
+      display: none;
+    }
+    .ex-2:hover span {
+     background-color: black;
+     color: white;
+     display: inline;
+    }
+    .ex-2:hover {
+      border-radius: 25px;
+    }
