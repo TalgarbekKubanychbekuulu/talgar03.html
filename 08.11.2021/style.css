@@ -19,7 +19,7 @@
 .navbar {
   background-color: white;
   box-shadow: 0 0 15px gray;
-  
+  font-size: 15px;
 }
 .navbar ul {
   display: flex;
