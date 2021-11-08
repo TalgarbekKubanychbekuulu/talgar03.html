@@ -19,7 +19,7 @@
 .navbar {
   background-color: white;
   box-shadow: 0 0 15px gray;
-  font-size: 15px;
+  font-size: 30px;
 }
 .navbar ul {
   display: flex;
@@ -51,4 +51,8 @@
 }
 .navbar.navbar-red a:hover {
   color: white;
+}
+article{
+  font-size:20px;
+  color:black;
 }
