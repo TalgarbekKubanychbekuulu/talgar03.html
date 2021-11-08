@@ -10,15 +10,16 @@
 .text-right {
   text-align: right;
 }
-.align-right {
-  float: right;
-}
 .align-left {
   float: left;
+}
+.align-right {
+  float: right;
 }
 .navbar {
   background-color: white;
   box-shadow: 0 0 15px gray;
+  
 }
 .navbar ul {
   display: flex;
