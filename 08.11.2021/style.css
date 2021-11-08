@@ -16,6 +16,17 @@
 .align-right {
   float: right;
 }
+header {
+  display: flex;
+  background-color: white;
+  padding: 5px 0;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
 .navbar {
   background-color: white;
   box-shadow: 0 0 15px gray;
@@ -55,5 +66,12 @@
 article{
   font-size:20px;
   color:black;
-  box-shadow: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+button {
+  border-radius: 50px 50px;
+  background-color: red;
+}
+
+
