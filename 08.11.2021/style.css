@@ -84,7 +84,6 @@ button {
   bottom: 0;
   right: 0;
  display: flex;
- color: initial;
 }
 .ex-2 span {
   display: none;
