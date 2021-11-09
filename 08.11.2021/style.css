@@ -128,7 +128,9 @@ tr:nth-of-type(4n+1){
     font-style: italic;
     background-color: gray;
 }
-
+.ex1{
+  color:lightgray;
+}
 .ex2{
   color:lightgray;
 }
