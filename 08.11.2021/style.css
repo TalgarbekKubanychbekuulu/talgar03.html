@@ -6,8 +6,9 @@ ul{
   margin: 0;
   padding:11px;
   justify-content: center;
-  margin: 50px;
+  margin:50px;
   font-size: 15px;
+  color: black;
 }
 .text-justify {
   text-align: justify;
@@ -29,12 +30,12 @@ ul{
 }
 header {
   display: flex;
-  background-color: white;
+  background-color:b;
   padding: 5px 0;
 
   position: sticky;
   top: 0;
-  width: 100%;
+  width:100%;
 
   box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 }
@@ -49,7 +50,7 @@ h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar {
-  background-color: white;
+  background-color:white;
   box-shadow:  black;
   font-size: 60px;
   width: 100%;
@@ -59,7 +60,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .navbar ul {
   display: flex;
   list-style-type: none;
-  margin: 0;
   padding: 0;
   justify-content: center;
   margin: 50px;
@@ -94,17 +94,6 @@ article{
 }
 button {
   border-radius: 50px 50px;
-}
-.ex-2 {
-  border-radius: 100%;
-  padding: 10px;
-  border: 3px solid black;
-  background-color: rgb(201, 30, 0);
-  color: white;
-  display:block;
-  bottom: 0;
-  right: 0;
- 
 }
 .ex-2 {
   border-radius: 100%;
@@ -165,9 +154,9 @@ tr:nth-of-type(4n+1){
 h2{
   color: white;
 }
-b{
+h1{
   color: white;
 }
-h1{
+.star{
   color: white;
 }
