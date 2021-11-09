@@ -108,7 +108,7 @@ button {
 .ex-2 span {
   display: none;
 }
-.ex-2:hover span {
+.ex-2:hover 
  background-color: black;
  color: white;
  display: inline;
@@ -121,7 +121,8 @@ tr:nth-last-child(2){
   font-style: italic;
   background-color: gray;
 }
-tr:: gray;
+tr:nth-of-type(2n+1){
+   background-color: gray;
 }
 tr:nth-of-type(4n+1){
     font-style: italic;
