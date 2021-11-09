@@ -3,10 +3,8 @@
 ul{
   display: flex;
   list-style-type: none;
-  margin: 0;
   padding:11px;
   justify-content: center;
-  margin:50px;
   font-size: 15px;
   color: black;
 }
