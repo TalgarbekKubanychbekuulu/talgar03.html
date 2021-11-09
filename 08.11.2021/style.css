@@ -108,7 +108,7 @@ button {
 .ex-2 span {
   display: none;
 }
-.ex-2:hover 
+.ex-2:hover span {
  background-color: black;
  color: white;
  display: inline;
