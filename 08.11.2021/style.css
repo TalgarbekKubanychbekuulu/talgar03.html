@@ -9,7 +9,7 @@ ul{
   margin: 50px;
   font-size: 15px;
 }
-.text-justgify {
+.text-justify {
   text-align: justify;
 }
 .text-center {
@@ -44,7 +44,7 @@ h1{
 }
 .ex{
   font-size: 50px;
-  color:black;
+  color: beige;
   margin-left: 15%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -142,5 +142,32 @@ tr:nth-of-type(4n+1){
     background-color: gray;
 }
 .ex1{
-  color: tomato;
+  color:lightgray;
+}
+.ex2{
+  color:lightgray;
+}
+.ex3{
+  color:lightgray;
+}
+.ex4{
+  color:lightgray;
+}
+.ex5{
+  color:lightgray;
+}
+.ex5{
+  color:lightgray;
+}
+.ex6{
+  color: lightgray;
+}
+h2{
+  color: white;
+}
+b{
+  color: white;
+}
+h1{
+  color: white;
 }
