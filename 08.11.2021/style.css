@@ -105,12 +105,10 @@ button {
   right: 0;
  display: flex;
 }
-
+.ex-2 span {
+  display: none;
 }
-.ex-2:hover span {
- background-color: black;
- color: white;
- display: inline;
+
 }
 .ex-2:hover {
   border-radius: 25px;
