@@ -105,8 +105,7 @@ button {
   right: 0;
  display: flex;
 }
-.ex-2 span {
-  display: none;
+
 }
 .ex-2:hover span {
  background-color: black;
@@ -159,5 +158,8 @@ li{
   color: white;
 }
 .ex01{
+  color: white;
+}
+.ex02{
   color: white;
 }
