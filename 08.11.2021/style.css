@@ -40,9 +40,10 @@ header {
 h1{
   margin-left: 30%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
 }
 .ex{
-  font-size: 50px;
+  font-size: 80px;
   color: beige;
   margin-left: 15%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -163,4 +164,7 @@ li{
 }
 .ex02{
   color: white;
+}
+.img1{
+  float: left;
 }
