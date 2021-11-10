@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+div:nth-child(5){
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+div:nth-child(4){
+    width: 120px;
+    height: 128px;
+    margin-left: -60px;
+    margin-right: -60px;
+}
+div:nth-child(3){
+    width: 140px;
+    height: 148px;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+div:nth-child(2){
+    width: 160px;
+    height: 160px;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+div {
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-left: -35px;
+  margin-top: -35x;
+  /* short */
+  animation: color-shrift 1s /*1*/ infinite alternate 1s ease-in-out; /*1Это повторят сколько раз */
+  /* long */
+  animation-name: color-shrift,move-sideways,start;
+  animation-duration: 2s,2s,1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; /*играет от 100 до 0*/
+  animation-delay: 2s,0s,1s;
+  animation-timing-function: ease-in-out;
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes start{
+    0%{
+        background-color:white;
+        
+        /* width: 50px;
+        height: 50px; */
+        transform: scale(5);
+        border-radius: 45%;
+        border-right:55px;
+    }
+    50%{
+        background-color:white;
+        
+        /* width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px; */
+        transform: scale(5);
+        border-radius: 38%;
+    }
+    70%{
+        background-color: darkgrey;
+        transform: scale(2);
+        border-radius: 38%;
+    }
+    100%{
+    
+        background-color: darkgrey;
+    
+       /* width: 50px;
+       height: 50px; */
+
+       transform: scale(1);
+      border-radius: 55%;
+     border-left: 25px;
+    }
+    section{
+        box-shadow: 0 0 30px gray;
+        border-radius: 30px;
+        padding: 30px;
+        width: 400px;
+        position: fixed;
+        right: 80px;
+        top:80px;
+
+        animation:hover 2s infinite ease-in-out
+        animation-play-state:paused;
+    }
+
+    @keyframes hover{
+        0%{
+            transform:translate(-5px)
+        }
+        25%{
+            transform:translate(5px,-3px)
+        }
+        50%{
+            transform:translate(-10px,1px)
+        }
+        75%{
+            transform:translate(15px,-1px)
+    }
+        90%{
+            transform:translate(-10px,0px)
+        }
+        100%{
+            transform:translate(-5px,1px)
+        }
+    }
+
+    .st {
+        border-radius: 10px;
+        box-shadow: 0 0 10px blue;
+    }
