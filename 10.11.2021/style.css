@@ -1,31 +1,76 @@
 body {
   margin: 0;
 }
+div:nth-child(even){
+    background-color: white;
+    border: 3px solid tomato;
+}
+div:nth-child(9){
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    animation-delay: -.6s;
+}
+div:nth-child(8){
+    width: 42px;
+    height: 40px;
+    margin-left:-20px;
+    margin-top: -20px;
+    animation-delay: -.9s;
+}
+div:nth-child(7){
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    animation-delay: -1.2s;
+}
+div:nth-child(6){
+    width: 88px;
+    height: 88px;
+    margin-left: -48px;
+    margin-top: -48px;
+    animation-delay: -1.5s;
+}
 div:nth-child(5){
     width: 100px;
     height: 100px;
     margin-left: -50px;
     margin-right: -50px;
+    animation-delay: -1.8s;
 }
 div:nth-child(4){
     width: 120px;
     height: 128px;
     margin-left: -60px;
     margin-right: -60px;
+    animation-delay: -2.1s;
 }
 div:nth-child(3){
     width: 140px;
     height: 148px;
     margin-left: -70px;
     margin-right: -70px;
+    animation-delay: -.6s;
+    animation-delay: -2.5s;
 }
 div:nth-child(2){
     width: 160px;
     height: 160px;
-    margin-left: -70px;
-    margin-right: -70px;
+    margin-left: -89px;
+    margin-right: -89px;
+    animation-delay: -2.7s;
+}
+div:nth-child(1){
+    width: 180px;
+    height: 180px;
+    margin-left: -90px;
+    margin-top: -90px;
+    animation-delay:-3s ;
 }
 div {
+    border-radius: 50%;
   width: 50px;
   height: 50px;
   background-color: tomato;
@@ -34,16 +79,16 @@ div {
   top: 50%;
   left: 50%;
 
-  margin-left: -35px;
-  margin-top: -35x;
+  margin-left: -25px;
+  margin-top: -25x;
   /* short */
   animation: color-shrift 1s /*1*/ infinite alternate 1s ease-in-out; /*1Это повторят сколько раз */
   /* long */
-  animation-name: color-shrift,move-sideways,start;
-  animation-duration: 2s,2s,1s;
+  animation-name: color-shrift,move-sideways,star,hover;
+  animation-duration: 2s,2s,1s,2s;
   animation-iteration-count: infinite;
   animation-direction: alternate; /*играет от 100 до 0*/
-  animation-delay: 2s,0s,1s;
+  animation-delay: 2s,0s,1s,1s;
   animation-timing-function: ease-in-out;
 }
 
@@ -52,12 +97,12 @@ div:hover {
 }
 
 
-@keyframes start{
+/* @keyframes start{
     0%{
         background-color:white;
         
         /* width: 50px;
-        height: 50px; */
+        height: 50px; 
         transform: scale(5);
         border-radius: 45%;
         border-right:55px;
@@ -65,10 +110,10 @@ div:hover {
     50%{
         background-color:white;
         
-        /* width: 100px;
+         width: 100px;
         height: 100px;
         margin-top: -50px;
-        margin-left: -50px; */
+        margin-left: -50px; 
         transform: scale(5);
         border-radius: 38%;
     }
@@ -81,13 +126,23 @@ div:hover {
     
         background-color: darkgrey;
     
-       /* width: 50px;
-       height: 50px; */
+        width: 50px;
+       height: 50px; 
 
        transform: scale(1);
       border-radius: 55%;
      border-left: 25px;
-    }
+    } */
+
+@keyframes color-shrift{
+}
+@keyframes move-sideways{
+}
+@keyframes start{
+}
+@keyframes scale{
+}
+
     section{
         box-shadow: 0 0 30px gray;
         border-radius: 30px;
@@ -97,12 +152,12 @@ div:hover {
         right: 80px;
         top:80px;
 
-        animation:hover 2s infinite ease-in-out
+        animation:hover 2s infinite ease-in-out;
         animation-play-state:paused;
     }
 
     @keyframes hover{
-        0%{
+        /* 0%{
             transform:translate(-5px)
         }
         25%{
@@ -119,10 +174,7 @@ div:hover {
         }
         100%{
             transform:translate(-5px,1px)
-        }
+        } */
     }
 
-    .st {
-        border-radius: 10px;
-        box-shadow: 0 0 10px blue;
-    }
+    
