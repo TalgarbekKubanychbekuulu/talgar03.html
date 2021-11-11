@@ -33,27 +33,33 @@ header {
 
   position: sticky;
   top: 0;
-  width:100%;
+  
 
   box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 }
 h1{
-  margin-left: 30%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 26%;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
 }
 .ex{
   font-size: 80px;
   color: beige;
-  margin-left: 15%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 23%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.exx1{
+  margin-left: 19%;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 80px;
 }
 .navbar {
   background-color:white;
   box-shadow:  black;
   font-size: 60px;
   width: 100%;
-  height: 166px;
+  height: 80%;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar ul {
@@ -145,7 +151,7 @@ tr:nth-of-type(4n+1){
   color:lightgray;
 }
 .ex6{
-  color: lightgray;
+  color: white;
 }
 h2{
   color: white;
@@ -155,6 +161,7 @@ h1{
 }
 .star{
   color: white;
+  box-shadow:5px 2px 2px 5px red;
 }
 li{
   color: white;
@@ -167,4 +174,153 @@ li{
 }
 .img1{
   float: left;
+}
+
+
+
+
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+.dropdown button{
+  background-color: red;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  margin: 0;
+  font-size: 15px;
+}
+.dropdown button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.dropdown ul{
+  list-style-type: none;
+  margin: 0;
+  padding: o;
+
+  position: absolute;
+  top:100%;
+  left: 0;
+  display: none;
+}
+.dropdown:hover ul{
+  display: unset;
+}
+.dropdown ul a{
+  background-color: red;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.dropdown ul a:hover{
+  background-color: red;
+}
+ /* .dropdown .dropdown-right{
+float: right;
+}
+.dropdown.dropdown-right ul{
+  right: 0;
+}
+.dropdown.dropdown-left ul{
+  left: 100%;
+  top: 0;
+}  */
+
+
+
+.tat{
+  display: inline-block;
+  position: relative;
+}
+.tat button{
+  background-color: red;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  margin: 0;
+}
+.tat button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+.tat ul{
+  list-style-type: none;
+  margin: 0;
+  padding: o;
+
+  position: absolute;
+  top:100%;
+  left: 0;
+  display: none;
+}
+.tat:hover ul{
+  display: unset;
+}
+.tat ul a{
+  background-color: red;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.ul a:hover{
+  background-color: red;
+}
+ /* .dropdown .dropdown-right{
+float: right;
+}
+.dropdown.dropdown-right ul{
+  right: 0;
+}
+.dropdown.dropdown-left ul{
+  left: 100%;
+  top: 0;
+}  */
+.post{
+  float: right;
+  margin-top: 40px;
+  margin-right: 0;
+}
+.post1{
+  margin-top: 30px;
+  float: left;
+  margin-left: 0;
+}
+.text{
+  justify-content: space-between;
+  color: white;
+}
+.xxx{
+  max-width: 600px;
+  max-width: 600px;
+  margin: 0;
+  margin-left: 30%;
+  margin-bottom:0;
+  justify-content: center;
+  margin-top: 8%;
+}
+.tar{
+  margin-top: 9%;
+}
+.t1{
+  color: white;
+  margin-left: 40%;
+}
+
+
+
+
+
+ul+p{
+  color: blue;
+}
+ul~p{
+  color: brown;
+}
+ul > li{
+  list-style-type:latin;
 }
