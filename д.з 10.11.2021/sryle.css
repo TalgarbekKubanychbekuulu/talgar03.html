@@ -87,11 +87,10 @@ body {
         }
         50%{
           background-color: goldenrod;
-        left: 25%;
-        border-radius: 25%;
+        left: 25%; 25%;
         }
         100% {
-          
+          background-color: indigo;
         left: 75%;
         border-radius: 75%;
         }
