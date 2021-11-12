@@ -74,11 +74,7 @@ body {
         
       }
     }
-      @keyframes move-sideways {
-        0% {
-          background-color: floralwhite;
-        left: 75%;
-        border-radius: 75%;
+      
         }
         35%{
           background-color: fuchsia;
@@ -87,7 +83,8 @@ body {
         }
         50%{
           background-color: goldenrod;
-        left: 25%; 25%;
+        left: 25%;
+        border-radius: 25%;
         }
         100% {
           background-color: indigo;
