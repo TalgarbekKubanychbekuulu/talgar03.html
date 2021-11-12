@@ -91,9 +91,9 @@ body {
         border-radius: 25%;
         }
         100% {
-          background-color: indigo;
+          
         left: 75%;
-        border-radius: 75%
+        border-radius: 75%;
         }
     }
     
