@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+  }
+  div {
+      border-radius: 80%;
+    width: 50px;
+    height: 50px;
+    
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    margin-left: -25px;
+    margin-top: -25x;
+    /* short */
+    animation: star,move-sidewyas 1s /*1*/ infinite alternate 1s ease-in-out; /*1Это повторят сколько раз */
+    /* long */
+    animation-name:star,move-sideways;
+    animation-duration: 2s,1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; /*играет от 100 до 0*/
+    animation-delay: 2s,2s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  div:hover {
+    animation-play-state: paused;
+  }
+  
+  
+   @keyframes star{
+      0%{
+          background-color: red;
+          border-radius: 75%;
+           width: 50px;
+          height: 50px
+         
+          
+      }
+      25%{
+        border-radius: 35%;
+          background-color: blue;
+        width: 100px;
+       height: 100px; 
+       
+      }
+      35%{
+        border-radius: 38%;
+          background-color: blueviolet;
+        width: 50px;
+       height: 50px; 
+      }
+      50%{
+        border-radius: 38%;
+          background-color: yellow;
+           width: 100px;
+          height: 100px;
+         
+      }
+      70%{
+        width: 500px;
+        height: 500px;
+         background-color: aliceblue; 
+         border-radius: 35%;
+      }
+      100%{
+      
+        background-color: black;
+        border-radius: 75%;
+          width: 50px;
+         height: 50px; 
+  
+        
+      }
+    }
+      @keyframes move-sideways {
+        0% {
+          background-color: floralwhite;
+        left: 75%;
+        border-radius: 75%;
+        }
+        35%{
+          background-color: fuchsia;
+          left: 75%;
+          border-radius: 25%;
+        }
+        50%{
+          background-color: goldenrod;
+        left: 25%;
+        border-radius: 25%;
+        }
+        100% {
+          background-color: indigo;
+        left: 75%;
+        border-radius: 75%;
+        }
+    }
+    
+
+    
